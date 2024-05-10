@@ -1,7 +1,7 @@
 import 'dart:io';
 
 main() {
-  String input = "Ahmed Abdelaziz Hussien";
+  String input = stdin.readLineSync() ?? "";
   reverseString(input);
 }
 
